@@ -1,0 +1,57 @@
+/* App.css */
+
+body {
+  margin: 0;
+ 
+  /* height: 100vh; */
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c0fe);
+  background-size: 600% 600%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 0%; }
+  50% { background-position: 100% 100%; }
+  100% { background-position: 0% 0%; }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.header-message {
+  text-align: center;
+  padding: 20px;
+} 
+
+/* .message-container {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.message-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.message-container li {
+  margin: 5px 0;
+} */
+/*  */
+
+/* src/App.css */
+
+
+
+/* src/App.css */
+
+
