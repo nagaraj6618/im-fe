@@ -73,6 +73,9 @@ function Message() {
                <h2>You are My World🌏</h2>
                <button onClick={startHandler}>{buttonName}</button>
                <ul>
+                  {messages.length===0 && 
+                     <li className='message-item'>{buttonName ==="Start" ? "Click Start":"Loading..."}</li>
+                  }
                   {messages.map((msg, index) => (
                      <li key={index} className="message-item">{msg}</li>
                   ))}
